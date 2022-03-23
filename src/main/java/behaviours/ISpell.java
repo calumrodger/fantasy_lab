@@ -3,7 +3,7 @@ package behaviours;
 import characters.Character;
 import characters.enemies.Enemy;
 
-public interface IWeapon {
+public interface ISpell {
 
-    void attack(Character character);
+    void cast(Character character);
 }

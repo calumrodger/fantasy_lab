@@ -1,4 +1,4 @@
-package players;
+package characters.players;
 
 import behaviours.IWeapon;
 

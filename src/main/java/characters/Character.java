@@ -1,13 +1,13 @@
-package players;
+package characters;
 
-public abstract class Player {
+public abstract class Character {
 
     private String name;
     private int healthBar;
     private int stamina;
     private int criticalChance;
 
-    public Player(String name, int healthBar, int stamina, int criticalChance) {
+    public Character(String name, int healthBar, int stamina, int criticalChance) {
         this.name = name;
         this.healthBar = healthBar;
         this.stamina = stamina;
@@ -44,5 +44,13 @@ public abstract class Player {
 
     public void setCriticalChance(int criticalChance) {
         this.criticalChance = criticalChance;
+    }
+
+    public void takeDamage(int damage){
+        this.healthBar -= damage;
+    }
+
+    public void getHealed(int healValue){
+        this.healthBar += healValue;
     }
 }

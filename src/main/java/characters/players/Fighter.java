@@ -1,4 +1,4 @@
-package players;
+package characters.players;
 
 import behaviours.IWeapon;
 
@@ -20,7 +20,4 @@ public abstract class Fighter extends Player{
         this.weapon = weapon;
     }
 
-//    public int attack(){
-//        return weapon.getDamage();
-//    }
 }
