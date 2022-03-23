@@ -9,8 +9,5 @@ public class Barbarian extends Fighter {
         super(name, healthBar, stamina, criticalChance, weapon);
     }
 
-//    @Override
-//    public int attack() {
-//        return weapon.getDamage();
-//    }
+
 }

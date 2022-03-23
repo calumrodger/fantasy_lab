@@ -5,8 +5,4 @@ public class Ogre extends Enemy{
         super(name, healthBar, stamina, criticalChance);
     }
 
-//    @Override
-//    public void attack(Enemy enemy) {
-//        return 0;
-//    }
 }

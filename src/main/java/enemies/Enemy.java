@@ -1,7 +1,5 @@
 package enemies;
 
-import behaviours.IWeapon;
-
 public abstract class Enemy {
 
     private String name;
