@@ -4,6 +4,7 @@ import behaviours.IWeapon;
 import characters.Character;
 import characters.enemies.Enemy;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Club implements IWeapon {

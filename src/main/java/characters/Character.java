@@ -42,6 +42,7 @@ public abstract class Character {
         return criticalChance;
     }
 
+
     public void setCriticalChance(int criticalChance) {
         this.criticalChance = criticalChance;
     }

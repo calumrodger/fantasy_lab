@@ -9,5 +9,7 @@ public class Barbarian extends Fighter {
         super(name, healthBar, stamina, criticalChance, weapon);
     }
 
-
+//    public int attackWithWeapon(){
+//        return this.weapon.attack();
+//    }
 }
